@@ -3,7 +3,7 @@
 import tensorflow as tf
 from tensorflow.keras import layers, models
 
-dataset_path = r'C:\Rick\Study\MCA\3rd Semester\Python Lab\Assignment 5\jpg'
+dataset_path = r'C:\Rick\Study\MCA\3rd Semester\Python Lab\Assignment 7\jpg'
 
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
     dataset_path,
